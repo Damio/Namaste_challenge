@@ -2,7 +2,7 @@
 
 ## Task 1: Python. Data Manipulation and usage of external APIs
 
-The full script can be found in  the file called **main_script.py** [Namaste_challenge](main_script.py)
+The full script can be found in  the file called [**main_script.py**](main_script.py)
 
 - First task was to read the JSON into python as a list of dictionaries
 
@@ -37,7 +37,7 @@ complete_df = pd.DataFrame(orders_data)
 
 - I used this new dataframe to create three tables using the data, one for the **items**, another for **customers**, and one for **orders**
  
- - Then loaded the data into a database already created using the schema (schema.sql file) here: [Namaste_challenge](schema.sql)
+ - Then loaded the data into a database already created using the schema (schema.sql file) here: [Schema](schema.sql)
 ```python
 #Establish a connection to postgreSQL
 connection_string = f"postgres:{password}@localhost:5432/orders_db"
