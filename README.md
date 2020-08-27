@@ -1,6 +1,6 @@
 # Namaste_challenge
 
-## PTask 1: Python. Data Manipulation and usage of external APIs
+## Task 1: Python. Data Manipulation and usage of external APIs
 
 
 
