@@ -2,7 +2,7 @@
 
 ## Task 1: Python. Data Manipulation and usage of external APIs
 
-The full script can be found in  the file called [**main_script.py**](main_script.py)
+The full script can be found in  the file called [main_script.py](main_script.py)
 
 - First task was to read the JSON into python as a list of dictionaries
 
@@ -37,7 +37,7 @@ complete_df = pd.DataFrame(orders_data)
 
 - I used this new dataframe to create three tables using the data, one for the **items**, another for **customers**, and one for **orders**
  
- - Then loaded the data into a database already created using the schema (schema.sql file) here: [Schema](schema.sql)
+ - Then loaded the data into a database already created using the schema (schema.sql file) here: [Schema.sql](schema.sql)
 ```python
 #Establish a connection to postgreSQL
 connection_string = f"postgres:{password}@localhost:5432/orders_db"
@@ -60,12 +60,6 @@ Data was gotten from the JSON created in part 1 - [updated_orders_data.json](out
 
 
 ## Things that can be improved
-- there is room to draw more visuals from Tableau
+- There is room to draw more visuals from Tableau.
 - Running checks before adding data to tables in pandas, that way you don't have to drop_duplicates after.
-- Connect Tableau to database for consistency
-
-## Key takeaway
-
-- This task really exposed me to some of the exciting work that Namaste does, and shows that the team is forward-looking and up-to-date with current technologies.
-- I'm confident that my skills and experience will be put to good use at Namaste!
-
+- Connect Tableau to database for consistency.
