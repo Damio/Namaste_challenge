@@ -23,7 +23,7 @@ def get_exchange(date):
 
 
 ## Task 2: SQL
-
+The full script can be found in  the file called [main_script.py](main_script.py)
 
 The second task was achieved using the *SQLAlchemy library* 
 
@@ -52,7 +52,20 @@ orders_df.to_sql(name='orders', con=engine, if_exists='append', index=False)
 ```
 
 ## Task 3: Reporting
-The last step was a very brief dive into the data, there weren't that many data points, so not a lot of insights.
+The last step was a very brief dive into the data, there weren't that many data points, so not a lot of insights. 
+
+Data was gotten from the JSON created in part 1 - [updated_orders_data.json](output/updated_orders_data), and read directly into Tableau.
 
 **Link to Tableau solution ->** <https://public.tableau.com/profile/dami.osayomi#!/vizhome/Namaste_challenge/orders_dashboard?publish=yes>
+
+
+## Things that can be improved
+- there is room to draw more visuals from Tableau
+- Running checks before adding data to tables in pandas, that way you don't have to drop_duplicates after.
+- Connect Tableau to database for consistency
+
+## Key takeaway
+
+- This task really exposed me to some of the exciting work that Namaste does, and shows that the team is forward-looking and up-to-date with current technologies.
+- I'm confident that my skills and experience will be put to good use at Namaste!
 
