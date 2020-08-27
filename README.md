@@ -1,19 +1,19 @@
 # Namaste_challenge
 
-## Part 1
+## PTask 1: Python. Data Manipulation and usage of external APIs
 
 
 
 
 
 
-## Part 2 
+## Task 2: SQL
 
 
 
 
 
-## Part 3
+## Task 3: Reporting
 
 Link to Tableau solution -> https://public.tableau.com/profile/dami.osayomi#!/vizhome/Namaste_challenge/orders_dashboard?publish=yes
 
